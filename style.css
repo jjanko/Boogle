@@ -1,0 +1,75 @@
+body {
+    background-color: deepskyblue;
+}
+
+#navigation {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.navigation_items {
+    display: inline;
+    padding-right: 20px;
+}
+
+.search {
+    display:block;
+    margin: 5% auto;
+}
+
+td {
+    width: 100px;
+}
+
+img {
+    padding-left: 30%;
+    width: 400px;
+    height: 200px;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 25px;
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.aplikacije {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#tm {
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    opacity: 60%;
+    color: azure;
+}
